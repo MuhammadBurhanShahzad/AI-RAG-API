@@ -10,7 +10,7 @@ We first developed a Python-based RAG API using **FastAPI**, **ChromaDB** for do
 The API retrieves relevant context and generates answers for user queries.
 
 **Diagram:**  
-AI-RAG-API/API.png
+![RAG API Diagram](AI-RAG-API/API.png)
 
 ---
 
@@ -20,7 +20,7 @@ The API was containerized using **Docker**, ensuring it runs consistently across
 - Docker image contains the API, dependencies, and database setup.  
 
 **Diagram:**  
-*(Insert Docker container structure diagram here)*
+![RAG API Diagram](AI-RAG-API/docker.png)
 
 ---
 
@@ -30,7 +30,7 @@ The containerized API was deployed on **Kubernetes**, enabling scalable, self-he
 - Pods run the API, Services route external traffic, and ConfigMaps manage configuration.
 
 **Diagram:**  
-*(Insert Kubernetes deployment diagram here)*
+![RAG API Diagram](k8s.png)
 
 ---
 
@@ -42,7 +42,7 @@ Automated testing and deployment were implemented with **GitHub Actions**.
 - Pipeline triggers on code push to validate and deploy changes automatically.
 
 **Diagram:**  
-*(Insert CI/CD workflow diagram here)*
+![RAG API Diagram](cicd.jpeg)
 
 ---
 
